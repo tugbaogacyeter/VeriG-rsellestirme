@@ -14,170 +14,20 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> install.packages("tidyr")
-Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.4’
-(as ‘lib’ is unspecified)
-also installing the dependencies ‘utf8’, ‘generics’, ‘pillar’, ‘R6’, ‘stringi’, ‘fansi’, ‘pkgconfig’, ‘withr’, ‘cli’, ‘dplyr’, ‘glue’, ‘lifecycle’, ‘magrittr’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyselect’, ‘vctrs’, ‘cpp11’
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/utf8_1.2.4.tar.gz'
-Content type 'application/x-gzip' length 145987 bytes (142 KB)
-==================================================
-downloaded 142 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/generics_0.1.3.tar.gz'
-Content type 'application/x-gzip' length 77807 bytes (75 KB)
-==================================================
-downloaded 75 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/pillar_1.9.0.tar.gz'
-Content type 'application/x-gzip' length 648356 bytes (633 KB)
-==================================================
-downloaded 633 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/R6_2.5.1.tar.gz'
-Content type 'application/x-gzip' length 82476 bytes (80 KB)
-==================================================
-downloaded 80 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/stringi_1.8.4.tar.gz'
-Content type 'application/x-gzip' length 4319366 bytes (4.1 MB)
-==================================================
-downloaded 4.1 MB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/fansi_1.0.6.tar.gz'
-Content type 'application/x-gzip' length 303651 bytes (296 KB)
-==================================================
-downloaded 296 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/pkgconfig_2.0.3.tar.gz'
-Content type 'application/x-gzip' length 17998 bytes (17 KB)
-==================================================
-downloaded 17 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/withr_3.0.0.tar.gz'
-Content type 'application/x-gzip' length 236282 bytes (230 KB)
-==================================================
-downloaded 230 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/cli_3.6.2.tar.gz'
-Content type 'application/x-gzip' length 1277476 bytes (1.2 MB)
-==================================================
-downloaded 1.2 MB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/dplyr_1.1.4.tar.gz'
-Content type 'application/x-gzip' length 1475398 bytes (1.4 MB)
-==================================================
-downloaded 1.4 MB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/glue_1.7.0.tar.gz'
-Content type 'application/x-gzip' length 149591 bytes (146 KB)
-==================================================
-downloaded 146 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/lifecycle_1.0.4.tar.gz'
-Content type 'application/x-gzip' length 124181 bytes (121 KB)
-==================================================
-downloaded 121 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/magrittr_2.0.3.tar.gz'
-Content type 'application/x-gzip' length 221550 bytes (216 KB)
-==================================================
-downloaded 216 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/purrr_1.0.2.tar.gz'
-Content type 'application/x-gzip' length 490690 bytes (479 KB)
-==================================================
-downloaded 479 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/rlang_1.1.3.tar.gz'
-Content type 'application/x-gzip' length 1551094 bytes (1.5 MB)
-==================================================
-downloaded 1.5 MB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/stringr_1.5.1.tar.gz'
-Content type 'application/x-gzip' length 307634 bytes (300 KB)
-==================================================
-downloaded 300 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tibble_3.2.1.tar.gz'
-Content type 'application/x-gzip' length 676334 bytes (660 KB)
-==================================================
-downloaded 660 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tidyselect_1.2.1.tar.gz'
-Content type 'application/x-gzip' length 223338 bytes (218 KB)
-==================================================
-downloaded 218 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/vctrs_0.6.5.tar.gz'
-Content type 'application/x-gzip' length 1284679 bytes (1.2 MB)
-==================================================
-downloaded 1.2 MB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/cpp11_0.4.7.tar.gz'
-Content type 'application/x-gzip' length 280415 bytes (273 KB)
-==================================================
-downloaded 273 KB
-
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tidyr_1.3.1.tar.gz'
-Content type 'application/x-gzip' length 1182783 bytes (1.1 MB)
-==================================================
-downloaded 1.1 MB
-
-* installing *binary* package ‘utf8’ ...
-* DONE (utf8)
-* installing *binary* package ‘generics’ ...
-* DONE (generics)
-* installing *binary* package ‘R6’ ...
-* DONE (R6)
-* installing *binary* package ‘stringi’ ...
-* DONE (stringi)
-* installing *binary* package ‘fansi’ ...
-* DONE (fansi)
-* installing *binary* package ‘pkgconfig’ ...
-* DONE (pkgconfig)
-* installing *binary* package ‘withr’ ...
-* DONE (withr)
-* installing *binary* package ‘cli’ ...
-* DONE (cli)
-* installing *binary* package ‘glue’ ...
-* DONE (glue)
-* installing *binary* package ‘magrittr’ ...
-* DONE (magrittr)
-* installing *binary* package ‘rlang’ ...
-* DONE (rlang)
-* installing *binary* package ‘cpp11’ ...
-* DONE (cpp11)
-* installing *binary* package ‘lifecycle’ ...
-* DONE (lifecycle)
-* installing *binary* package ‘vctrs’ ...
-* DONE (vctrs)
-* installing *binary* package ‘pillar’ ...
-* DONE (pillar)
-* installing *binary* package ‘purrr’ ...
-* DONE (purrr)
-* installing *binary* package ‘stringr’ ...
-* DONE (stringr)
-* installing *binary* package ‘tidyselect’ ...
-* DONE (tidyselect)
-* installing *binary* package ‘tibble’ ...
-* DONE (tibble)
-* installing *binary* package ‘dplyr’ ...
-* DONE (dplyr)
-* installing *binary* package ‘tidyr’ ...
-* DONE (tidyr)
-
-The downloaded source packages are in
-	‘/tmp/RtmpCntaFc/downloaded_packages’
 > install.packages("ggplot2")
 Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.4’
 (as ‘lib’ is unspecified)
-also installing the dependencies ‘colorspace’, ‘farver’, ‘labeling’, ‘munsell’, ‘RColorBrewer’, ‘viridisLite’, ‘gtable’, ‘isoband’, ‘scales’
+also installing the dependencies ‘colorspace’, ‘utf8’, ‘farver’, ‘labeling’, ‘munsell’, ‘R6’, ‘RColorBrewer’, ‘viridisLite’, ‘fansi’, ‘magrittr’, ‘pillar’, ‘pkgconfig’, ‘cli’, ‘glue’, ‘gtable’, ‘isoband’, ‘lifecycle’, ‘rlang’, ‘scales’, ‘tibble’, ‘vctrs’, ‘withr’
 
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/colorspace_2.1-0.tar.gz'
 Content type 'application/x-gzip' length 2595307 bytes (2.5 MB)
 ==================================================
 downloaded 2.5 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/utf8_1.2.4.tar.gz'
+Content type 'application/x-gzip' length 145987 bytes (142 KB)
+==================================================
+downloaded 142 KB
 
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/farver_2.1.2.tar.gz'
 Content type 'application/x-gzip' length 1485495 bytes (1.4 MB)
@@ -194,6 +44,11 @@ Content type 'application/x-gzip' length 242364 bytes (236 KB)
 ==================================================
 downloaded 236 KB
 
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/R6_2.5.1.tar.gz'
+Content type 'application/x-gzip' length 82476 bytes (80 KB)
+==================================================
+downloaded 80 KB
+
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
 Content type 'application/x-gzip' length 53281 bytes (52 KB)
 ==================================================
@@ -203,6 +58,36 @@ trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/viridisLite_0
 Content type 'application/x-gzip' length 1296925 bytes (1.2 MB)
 ==================================================
 downloaded 1.2 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/fansi_1.0.6.tar.gz'
+Content type 'application/x-gzip' length 303651 bytes (296 KB)
+==================================================
+downloaded 296 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/magrittr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 221550 bytes (216 KB)
+==================================================
+downloaded 216 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/pillar_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 648356 bytes (633 KB)
+==================================================
+downloaded 633 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/pkgconfig_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 17998 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/cli_3.6.2.tar.gz'
+Content type 'application/x-gzip' length 1277476 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/glue_1.7.0.tar.gz'
+Content type 'application/x-gzip' length 149591 bytes (146 KB)
+==================================================
+downloaded 146 KB
 
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/gtable_0.3.5.tar.gz'
 Content type 'application/x-gzip' length 216211 bytes (211 KB)
@@ -214,10 +99,35 @@ Content type 'application/x-gzip' length 1642543 bytes (1.6 MB)
 ==================================================
 downloaded 1.6 MB
 
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 124181 bytes (121 KB)
+==================================================
+downloaded 121 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/rlang_1.1.3.tar.gz'
+Content type 'application/x-gzip' length 1551094 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/scales_1.3.0.tar.gz'
 Content type 'application/x-gzip' length 703254 bytes (686 KB)
 ==================================================
 downloaded 686 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tibble_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 676334 bytes (660 KB)
+==================================================
+downloaded 660 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/vctrs_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 1284679 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/withr_3.0.0.tar.gz'
+Content type 'application/x-gzip' length 236282 bytes (230 KB)
+==================================================
+downloaded 230 KB
 
 trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/ggplot2_3.5.1.tar.gz'
 Content type 'application/x-gzip' length 4957008 bytes (4.7 MB)
@@ -226,40 +136,117 @@ downloaded 4.7 MB
 
 * installing *binary* package ‘colorspace’ ...
 * DONE (colorspace)
+* installing *binary* package ‘utf8’ ...
+* DONE (utf8)
 * installing *binary* package ‘farver’ ...
 * DONE (farver)
 * installing *binary* package ‘labeling’ ...
 * DONE (labeling)
+* installing *binary* package ‘R6’ ...
+* DONE (R6)
 * installing *binary* package ‘RColorBrewer’ ...
 * DONE (RColorBrewer)
 * installing *binary* package ‘viridisLite’ ...
 * DONE (viridisLite)
-* installing *binary* package ‘gtable’ ...
-* DONE (gtable)
+* installing *binary* package ‘fansi’ ...
+* DONE (fansi)
+* installing *binary* package ‘magrittr’ ...
+* DONE (magrittr)
+* installing *binary* package ‘pkgconfig’ ...
+* DONE (pkgconfig)
+* installing *binary* package ‘cli’ ...
+* DONE (cli)
+* installing *binary* package ‘glue’ ...
+* DONE (glue)
 * installing *binary* package ‘isoband’ ...
 * DONE (isoband)
+* installing *binary* package ‘rlang’ ...
+* DONE (rlang)
+* installing *binary* package ‘withr’ ...
+* DONE (withr)
 * installing *binary* package ‘munsell’ ...
 * DONE (munsell)
+* installing *binary* package ‘lifecycle’ ...
+* DONE (lifecycle)
+* installing *binary* package ‘gtable’ ...
+* DONE (gtable)
 * installing *binary* package ‘scales’ ...
 * DONE (scales)
+* installing *binary* package ‘vctrs’ ...
+* DONE (vctrs)
+* installing *binary* package ‘pillar’ ...
+* DONE (pillar)
+* installing *binary* package ‘tibble’ ...
+* DONE (tibble)
 * installing *binary* package ‘ggplot2’ ...
 * DONE (ggplot2)
 
 The downloaded source packages are in
-	‘/tmp/RtmpCntaFc/downloaded_packages’
-> install.packages("ggplot2")
+	‘/tmp/RtmpEiE5C7/downloaded_packages’
+> install.packages("tidyr") 
 Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.4’
 (as ‘lib’ is unspecified)
-trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/ggplot2_3.5.1.tar.gz'
-Content type 'application/x-gzip' length 4957008 bytes (4.7 MB)
-==================================================
-downloaded 4.7 MB
+also installing the dependencies ‘generics’, ‘stringi’, ‘dplyr’, ‘purrr’, ‘stringr’, ‘tidyselect’, ‘cpp11’
 
-* installing *binary* package ‘ggplot2’ ...
-* DONE (ggplot2)
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'application/x-gzip' length 77807 bytes (75 KB)
+==================================================
+downloaded 75 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/stringi_1.8.4.tar.gz'
+Content type 'application/x-gzip' length 4319366 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1475398 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/purrr_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 490690 bytes (479 KB)
+==================================================
+downloaded 479 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/stringr_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 307634 bytes (300 KB)
+==================================================
+downloaded 300 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 223338 bytes (218 KB)
+==================================================
+downloaded 218 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/cpp11_0.4.7.tar.gz'
+Content type 'application/x-gzip' length 280415 bytes (273 KB)
+==================================================
+downloaded 273 KB
+
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/tidyr_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1182783 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+* installing *binary* package ‘generics’ ...
+* DONE (generics)
+* installing *binary* package ‘stringi’ ...
+* DONE (stringi)
+* installing *binary* package ‘purrr’ ...
+* DONE (purrr)
+* installing *binary* package ‘tidyselect’ ...
+* DONE (tidyselect)
+* installing *binary* package ‘cpp11’ ...
+* DONE (cpp11)
+* installing *binary* package ‘dplyr’ ...
+* DONE (dplyr)
+* installing *binary* package ‘stringr’ ...
+* DONE (stringr)
+* installing *binary* package ‘tidyr’ ...
+* DONE (tidyr)
 
 The downloaded source packages are in
-	‘/tmp/RtmpCntaFc/downloaded_packages’
+	‘/tmp/RtmpEiE5C7/downloaded_packages’
 > install.packages("scales")
 Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.4’
 (as ‘lib’ is unspecified)
@@ -272,103 +259,243 @@ downloaded 686 KB
 * DONE (scales)
 
 The downloaded source packages are in
-	‘/tmp/RtmpCntaFc/downloaded_packages’
-> library(tidyr)
+	‘/tmp/RtmpEiE5C7/downloaded_packages’
 > library(ggplot2)
+> library(tidyr)
 > library(scales)
-> # Veri setini manuel olarak ekleyin
+> # Türkçe veri setini manuel olarak ekleyin
 > vaccine_data <- data.frame(
-+     Entity = c("Africa", "Americas", "Eastern Mediterranean", "Europe", "South-east Asia", "Western Pacific", "World"),
-+     Year = c(2024, 2024, 2024, 2024, 2024, 2024, 2024),
-+     Diphtheria = c(210000, 7000, 30000, 3000, 84000, 23000, 357000),
-+     Hepatitis_B = c(129000, 18000, 27000, 24000, 73000, 203000, 464000),
-+     Measles = c(28660000, 14894000, 12887000, 6562000, 20517000, 10192000, 93712000),
++     Bolge = c("Afrika", "Amerika", "Doğu Akdeniz", "Avrupa", "Güneydoğu Asya", "Batı Pasifik", "Dünya"),
++     Yil = c(2024, 2024, 2024, 2024, 2024, 2024, 2024),
++     Difteri = c(210000, 7000, 30000, 3000, 84000, 23000, 357000),
++     Hepatit_B = c(129000, 18000, 27000, 24000, 73000, 203000, 464000),
 +     Polio = c(151000, 218000, 119000, 244000, 347000, 491000, 1570000),
-+     Rubella = c(45000, 30000, 34000, 14000, 112000, 50000, 286000),
-+     Tetanus = c(9544000, 65000, 8501000, 21000, 9218000, 586000, 27948000),
-+     Tuberculosis = c(6568000, 231000, 822000, 108000, 2416000, 756000, 10874000),
-+     Yellow_fever = c(549000, 8000, 1000, 0, 0, 0, 554000),
-+     Whooping_cough_Pertussis = c(4197000, 367000, 1861000, 231000, 4437000, 2058000, 13173000),
-+     Total = c(52843000, 16119000, 25055000, 7278000, 38026000, 14514000, 153838000),
-+     Streptococcus_pneumoniae = c(1026000, 69000, 284000, 31000, 137000, 70000, 1628000),
-+     Rotavirus = c(228000, 31000, 67000, 4000, 62000, 4000, 396000),
-+     Neisseria_meningitidis_A = c(2000, 0, 0, 0, 0, 0, 2000),
-+     Japanese_encephalitis = c(0, 0, 0, 0, 20000, 10000, 29000),
-+     Haemophilus_influenzae_type_B = c(1534000, 181000, 422000, 36000, 603000, 71000, 2845000)
++     Kizamikcik = c(45000, 30000, 34000, 14000, 112000, 50000, 286000),
++     Tetanoz = c(9544000, 65000, 8501000, 21000, 9218000, 586000, 27948000),
++     Tüberküloz = c(6568000, 231000, 822000, 108000, 2416000, 756000, 10874000),
++     Sarıhumma = c(549000, 8000, 1000, 0, 0, 0, 554000),
++     Boğmaca = c(4197000, 367000, 1861000, 231000, 4437000, 2058000, 13173000),
++     Toplam = c(52843000, 16119000, 25055000, 7278000, 38026000, 14514000, 153838000),
++     Streptokok_pnömonisi = c(1026000, 69000, 284000, 31000, 137000, 70000, 1628000),
++     Rotavirüs = c(228000, 31000, 67000, 4000, 62000, 4000, 396000),
++     Menenjit_A = c(2000, 0, 0, 0, 0, 0, 2000),
++     Japon_ensefaliti = c(0, 0, 0, 0, 20000, 10000, 29000),
++     Hib = c(1534000, 181000, 422000, 36000, 603000, 71000, 2845000)
 + )
+> # "Dünya" istatistiklerini hariç tutarak veri setini filtreleme
+> vaccine_data_filtered <- subset(vaccine_data, Bolge != "Dünya")
+> 
 > # Veri çerçevesini uzun formata dönüştürme
-> long_data <- pivot_longer(vaccine_data, cols = c(Diphtheria, Hepatitis_B, Measles, Polio, Rubella, Tetanus, Tuberculosis, Yellow_fever, Whooping_cough_Pertussis, Streptococcus_pneumoniae, Rotavirus, Neisseria_meningitidis_A, Japanese_encephalitis, Haemophilus_influenzae_type_B),
-+                           names_to = "Disease", values_to = "Protected")
-> # Pasta grafiği oluşturma
-> ggplot(long_data, aes(x = "", y = Protected, fill = Disease)) +
-+     geom_bar(stat = "identity", width = 1) +
-+     coord_polar("y") +
+> long_data_filtered <- pivot_longer(vaccine_data_filtered, cols = c(Difteri, Hepatit_B, Kizamik, Polio, Kizamikcik, Tetanoz, Tüberküloz, Sarıhumma, Boğmaca, Streptokok_pnömonisi, Rotavirüs, Menenjit_A, Japon_ensefaliti, Hib),
++                                    names_to = "Hastalık", values_to = "Korunan")
+Error in `pivot_longer()`:
+! Can't select columns that don't exist.
+✖ Column `Kizamik` doesn't exist.
+Run `rlang::last_trace()` to see where the error occurred.
+> # "Dünya" istatistiklerini hariç tutarak veri setini filtreleme
+> vaccine_data_filtered <- subset(vaccine_data, Bolge != "Dünya")
+> 
+> # Veri çerçevesini uzun formata dönüştürme
+> long_data_filtered <- pivot_longer(vaccine_data_filtered, cols = c(Difteri, Hepatit_B, Polio, Kizamikcik, Tetanoz, Tüberküloz, Sarıhumma, Boğmaca, Streptokok_pnömonisi, Rotavirüs, Menenjit_A, Japon_ensefaliti, Hib),
++                                    names_to = "Hastalık", values_to = "Korunan")
+> 
+> # Sütun grafiği oluşturma
+> ggplot(long_data_filtered, aes(x = Bolge, y = Korunan, fill = Hastalık)) +
++     geom_bar(stat = "identity", position = "dodge") +
 +     theme_minimal() +
 +     labs(title = "2024 Yılında Hastalıklardan Korunan Çocuk Sayısı",
 +          fill = "Hastalık",
++          x = "Bölge",
++          y = "Korunan Çocuk Sayısı") +
++     scale_y_continuous(labels = scales::comma, limits = c(0, 10000000), breaks = seq(0, 10000000, by = 100000)) +
++     theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
++           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
+> # Sütun grafiği oluşturma
+> ggplot(long_data_filtered, aes(x = Bolge, y = Korunan, fill = Hastalık)) +
++     geom_bar(stat = "identity", position = "dodge") +
++     theme_minimal() +
++     labs(title = "2024 Yılında Hastalıklardan Korunan Çocuk Sayısı",
++          fill = "Hastalık",
++          x = "Bölge",
++          y = "Korunan Çocuk Sayısı") +
++     scale_y_continuous(labels = scales::comma, limits = c(0, 10000000), breaks = seq(0, 10000000, by = 1000000)) +
++     theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
++           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
+> # Pasta grafiği oluşturma
+> ggplot(vaccine_data, aes(x = "", y = Measles, fill = Entity)) +
++     geom_bar(stat = "identity", width = 1) +
++     coord_polar("y") +
++     theme_minimal() +
++     labs(title = "2024 Yılında Kızamık Hastalığından Korunan Çocukların Sayısı",
 +          x = NULL,
++          y = NULL,
++          fill = "Bölge") +
++     scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
++     theme(legend.text = element_text(size = 12),  # Lejant yazı boyutunu büyütme
++           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
+Error in `geom_bar()`:
+! Problem while computing aesthetics.
+ℹ Error occurred in the 1st layer.
+Caused by error:
+! object 'Measles' not found
+Run `rlang::last_trace()` to see where the error occurred.
+> vaccine_data <- data.frame(
++     vaccine_data <- data.frame(
++         Bolge = c("Afrika", "Amerika", "Doğu Akdeniz", "Avrupa", "Güneydoğu Asya", "Batı Pasifik", "Dünya"),
++         Yil = c(2024, 2024, 2024, 2024, 2024, 2024, 2024),
++         Difteri = c(210000, 7000, 30000, 3000, 84000, 23000, 357000),
++         Hepatit_B = c(129000, 18000, 27000, 24000, 73000, 203000, 464000),
++         Kizamik = c(28660000, 14894000, 12887000, 6562000, 20517000, 10192000, 93712000),
++         Polio = c(151000, 218000, 119000, 244000, 347000, 491000, 1570000),
++         Kizamikcik = c(45000, 30000, 34000, 14000, 112000, 50000, 286000),
++         Tetanoz = c(9544000, 65000, 8501000, 21000, 9218000, 586000, 27948000),
++         Tüberküloz = c(6568000, 231000, 822000, 108000, 2416000, 756000, 10874000),
++         Sarıhumma = c(549000, 8000, 1000, 0, 0, 0, 554000),
++         Boğmaca = c(4197000, 367000, 1861000, 231000, 4437000, 2058000, 13173000),
++         Toplam = c(52843000, 16119000, 25055000, 7278000, 38026000, 14514000, 153838000),
++         Streptokok_pnömonisi = c(1026000, 69000, 284000, 31000, 137000, 70000, 1628000),
++         Rotavirüs = c(228000, 31000, 67000, 4000, 62000, 4000, 396000),
++         Menenjit_A = c(2000, 0, 0, 0, 0, 0, 2000),
++         Japon_ensefaliti = c(0, 0, 0, 0, 20000, 10000, 29000),
++         Hib = c(1534000, 181000, 422000, 36000, 603000, 71000, 2845000)
++     )
++     
++ # Pasta grafiği oluşturma
++ ggplot(vaccine_data, aes(x = "", y = Kizamik, fill = Entity)) +
+Error: unexpected symbol in:
+"# Pasta grafiği oluşturma
+ggplot"
+> # Pasta grafiği oluşturma
+> ggplot(vaccine_data_filtered, aes(x = "", y = Kizamik, fill = Bolge)) +
++     geom_bar(stat = "identity", width = 1) +
++     coord_polar("y") +
++     theme_minimal() +
++     labs(title = "2024 Yılında Kızamık Hastalığından Korunan Çocukların Sayısı",
++          x = NULL,
++          y = NULL,
++          fill = "Bölge") +
++     scale_y_continuous(labels = scales::comma) +
++     theme(legend.text = element_text(size = 12),  # Lejant yazı boyutunu büyütme
++           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
+Error in `geom_bar()`:
+! Problem while computing aesthetics.
+ℹ Error occurred in the 1st layer.
+Caused by error:
+! object 'Kizamik' not found
+Run `rlang::last_trace()` to see where the error occurred.
+> # Türkçe veri setini manuel olarak ekleyin
+> vaccine_data <- data.frame(
++     Bolge = c("Afrika", "Amerika", "Doğu Akdeniz", "Avrupa", "Güneydoğu Asya", "Batı Pasifik", "Dünya"),
++     Yil = c(2024, 2024, 2024, 2024, 2024, 2024, 2024),
++     Difteri = c(210000, 7000, 30000, 3000, 84000, 23000, 357000),
++     Hepatit_B = c(129000, 18000, 27000, 24000, 73000, 203000, 464000),
++     Kizamik = c(28660000, 14894000, 12887000, 6562000, 20517000, 10192000, 93712000),
++     Polio = c(151000, 218000, 119000, 244000, 347000, 491000, 1570000),
++     Kizamikcik = c(45000, 30000, 34000, 14000, 112000, 50000, 286000),
++     Tetanoz = c(9544000, 65000, 8501000, 21000, 9218000, 586000, 27948000),
++     Tüberküloz = c(6568000, 231000, 822000, 108000, 2416000, 756000, 10874000),
++     Sarıhumma = c(549000, 8000, 1000, 0, 0, 0, 554000),
++     Boğmaca = c(4197000, 367000, 1861000, 231000, 4437000, 2058000, 13173000),
++     Toplam = c(52843000, 16119000, 25055000, 7278000, 38026000, 14514000, 153838000),
++     Streptokok_pnömonisi = c(1026000, 69000, 284000, 31000, 137000, 70000, 1628000),
++     Rotavirüs = c(228000, 31000, 67000, 4000, 62000, 4000, 396000),
++     Menenjit_A = c(2000, 0, 0, 0, 0, 0, 2000),
++     Japon_ensefaliti = c(0, 0, 0, 0, 20000, 10000, 29000),
++     Hib = c(1534000, 181000, 422000, 36000, 603000, 71000, 2845000)
++ )
+> # "Dünya" istatistiklerini hariç tutarak veri setini filtreleme
+> vaccine_data_filtered <- subset(vaccine_data, Bolge != "Dünya")
+> 
+> # Pasta grafiği oluşturma
+> ggplot(vaccine_data_filtered, aes(x = "", y = Kizamik, fill = Bolge)) +
++     geom_bar(stat = "identity", width = 1) +
++     coord_polar("y") +
++     theme_minimal() +
++     labs(title = "2024 Yılında Kızamık Hastalığından Korunan Çocukların Sayısı",
++          x = NULL,
++          y = NULL,
++          fill = "Bölge") +
++     scale_y_continuous(labels = scales::comma) +
++     theme(legend.text = element_text(size = 12),  # Lejant yazı boyutunu büyütme
++           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
+> # Çubuk grafiği oluşturma
+> ggplot(long_data_filtered, aes(x = Hastalık, y = Korunan, fill = Bolge)) +
++     geom_bar(stat = "identity", position = "dodge") +
++     theme_minimal() +
++     labs(title = "2024 Yılında Hastalıklardan Korunan Çocuk Sayısı",
++          fill = "Bölge",
++          x = "Hastalık",
 +          y = "Korunan Çocuk Sayısı") +
 +     scale_y_continuous(labels = scales::comma) +
 +     theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
-+           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
-> # Çizgi grafiği oluşturma
-> ggplot(long_data, aes(x = Entity, y = Protected, color = Disease, group = Disease)) +
-+     geom_line(size = 1) +
-+     geom_point(size = 2) +  # Noktaları vurgulamak için ekleme
++           legend.title = element_text(size = 14),  # Lejant başlık boyutunu büyütme
++           axis.text.x = element_text(angle = 45, hjust = 1))  # X ekseni yazılarını açılandırma
+> # Veri çerçevesini uzun formata dönüştürme ve toplamları hesaplama
+> long_data_filtered <- pivot_longer(vaccine_data_filtered, cols = c(Difteri, Hepatit_B, Kizamik, Polio, Kizamikcik, Tetanoz, Tüberküloz, Sarıhumma, Boğmaca, Streptokok_pnömonisi, Rotavirüs, Menenjit_A, Japon_ensefaliti, Hib),
++                                    names_to = "Hastalık", values_to = "Korunan") %>%
++     group_by(Hastalık) %>%
++     summarise(Korunan = sum(Korunan))
+Error in summarise(., Korunan = sum(Korunan)) : 
+  could not find function "summarise"
+> install.packages("dplyr")
+Error in install.packages : Updating loaded packages
+> install.packages("dplyr")
+Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.4’
+(as ‘lib’ is unspecified)
+trying URL 'http://rspm/default/__linux__/focal/latest/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1475398 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *binary* package ‘dplyr’ ...
+* DONE (dplyr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEiE5C7/downloaded_packages’
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> # Veri çerçevesini uzun formata dönüştürme ve toplamları hesaplama
+> long_data_filtered <- pivot_longer(vaccine_data_filtered, cols = c(Difteri, Hepatit_B, Kizamik, Polio, Kizamikcik, Tetanoz, Tüberküloz, Sarıhumma, Boğmaca, Streptokok_pnömonisi, Rotavirüs, Menenjit_A, Japon_ensefaliti, Hib),
++                                    names_to = "Hastalık", values_to = "Korunan") %>%
++     group_by(Hastalık) %>%
++     dplyr::summarise(Korunan = sum(Korunan))
+> 
+> # Çubuk grafiği oluşturma
+> ggplot(long_data_filtered, aes(x = Hastalık, y = Korunan, fill = Hastalık)) +
++     geom_bar(stat = "identity") +
 +     theme_minimal() +
-+     labs(title = "2024 Yılında Bölgelere Göre Hastalıklardan Korunan Çocuk Sayısı",
-+          x = "Bölge",
++     labs(title = "2024 Yılında Hastalıklardan Korunan Çocuk Sayısı",
++          x = "Hastalık",
 +          y = "Korunan Çocuk Sayısı") +
-+     scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
-+     theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
++     scale_y_continuous(labels = scales::comma, limits = c(0, 100000000), breaks = seq(0, 100000000, by = 10000000)) +
++     theme(legend.position = "none", # Lejantı kaldırma
++           axis.text.x = element_text(angle = 45, hjust = 1), # X ekseni yazılarını açılandırma
++           legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
 +           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
-Warning message:
-Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-ℹ Please use `linewidth` instead.
-This warning is displayed once every 8 hours.
-Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated. 
+> # "Dünya" istatistiklerini hariç tutarak veri setini filtreleme
+> vaccine_data_filtered <- subset(vaccine_data, Bolge != "Dünya")
+> 
+> # Veri çerçevesini uzun formata dönüştürme
+> long_data_filtered <- pivot_longer(vaccine_data_filtered, cols = c(Difteri, Hepatit_B, Kizamik, Polio, Kizamikcik, Tetanoz, Tüberküloz, Sarıhumma, Boğmaca, Streptokok_pnömonisi, Rotavirüs, Menenjit_A, Japon_ensefaliti, Hib),
++                                    names_to = "Hastalık", values_to = "Korunan")
+> 
 > # Nokta grafiği oluşturma
-> ggplot(long_data, aes(x = Entity, y = Protected, color = Disease)) +
+> ggplot(long_data_filtered, aes(x = Bolge, y = Korunan, color = Hastalık)) +
 +     geom_point(size = 3, alpha = 0.7) +  # Noktaları ekleme
 +     theme_minimal() +
 +     labs(title = "2024 Yılında Bölgelere Göre Hastalıklardan Korunan Çocuk Sayısı",
 +          x = "Bölge",
 +          y = "Korunan Çocuk Sayısı") +
-+     scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
++     scale_y_continuous(labels = scales::comma) +
 +     theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
 +           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
-> # Sütun grafiği oluşturma
-> ggplot(vaccine_data, aes(x = Entity, y = Measles, fill = Entity)) +
-+     geom_bar(stat = "identity") +
-+     theme_minimal() +
-+     labs(title = "2024 Yılında Kızamık Hastalığından Korunan Çocukların Sayısı",
-+          x = "Bölge",
-+          y = "Korunan Çocuk Sayısı") +
-+     scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
-+     theme(legend.text = element_text(size = 12),  # Lejant yazı boyutunu büyütme
-+           legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
-
-# Nokta grafiği oluşturma
-ggplot(long_data, aes(x = Entity, y = Protected, color = Disease)) +
-  geom_point(size = 3, alpha = 0.7) +  # Noktaları ekleme
-  theme_minimal() +
-  labs(title = "2024 Yılında Bölgelere Göre Hastalıklardan Korunan Çocuk Sayısı",
-       x = "Bölge",
-       y = "Korunan Çocuk Sayısı") +
-  scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
-  theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
-        legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
-
-
-
-# Çizgi grafiği oluşturma
-ggplot(long_data, aes(x = Entity, y = Protected, color = Disease, group = Disease)) +
-  geom_line(size = 1) +
-  geom_point(size = 2) +  # Noktaları vurgulamak için ekleme
-  theme_minimal() +
-  labs(title = "2024 Yılında Bölgelere Göre Hastalıklardan Korunan Çocuk Sayısı",
-       x = "Bölge",
-       y = "Korunan Çocuk Sayısı") +
-  scale_y_continuous(labels = scales::comma) +  # Y ekseni değerlerini virgülle ayrılmış tam sayılar olarak göster
-  theme(legend.text = element_text(size = 12), # Lejant yazı boyutunu büyütme
-        legend.title = element_text(size = 14))  # Lejant başlık boyutunu büyütme
